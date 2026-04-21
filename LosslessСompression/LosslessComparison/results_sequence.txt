@@ -1,0 +1,352 @@
+
+---Sequence 1---
+0000000011000100000000000101001000000010000000000000000010000010000000000000001000010000010001000000
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: 0=0.8700, 1=0.1300
+Mean probability: 0.5000
+Type: нерівна
+Entropy: -0.5574
+Redundancy: 1.5574
+
+---Sequence 2---
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: S=0.0100, a=0.0300, m=0.0100, o=0.0100, k=0.0200, h=0.0100, t=0.0100, 0=0.9000
+Mean probability: 0.1250
+Type: нерівна
+Entropy: -0.7336
+Redundancy: 1.2445
+
+---Sequence 3---
+0t0000m000000000000000a0000k00000000o00000000000000000k000000000000000000000S0000000000000aa000000h0
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: 0=0.9000, t=0.0100, m=0.0100, a=0.0300, k=0.0200, o=0.0100, S=0.0100, h=0.0100
+Mean probability: 0.1250
+Type: нерівна
+Entropy: -0.7336
+Redundancy: 1.2445
+
+---Sequence 4---
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+Alphabet size: 10
+Size: 100 bytes (800 bits)
+Probability: S=0.0800, a=0.2300, m=0.0800, o=0.0800, k=0.1600, h=0.0800, t=0.0800, 5=0.0700, 2=0.0700, 9=0.0700
+Mean probability: 0.1000
+Type: нерівна
+Entropy: -3.1739
+Redundancy: 1.9554
+
+---Sequence 5---
+aaSaSaSSSSaaaaaSSSSaaSSSSSSaSaSSSaSSaSSaaaSSaSaaSSSaaaSaSSaaSaSaSSaaaaSSaSSSaSaaSaSaaSSSSaSSSSaSaaaa
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: a=0.4600, S=0.5400
+Mean probability: 0.5000
+Type: нерівна
+Entropy: -0.9954
+Redundancy: 1.9954
+
+---Sequence 6---
+5S999S995a9552S2295S922aa9S95a22222559S9Saa
+Alphabet size: 5
+Size: 43 bytes (344 bits)
+Probability: 5=0.0800, S=0.0700, 9=0.1200, a=0.0600, 2=0.1000
+Mean probability: 0.0860
+Type: нерівна
+Entropy: -1.5029
+Redundancy: 1.6472
+
+---Sequence 7---
+gwpvoq8v7jv0mytbnrtgtjlq27vyenclzvpvkmgaopzial3moiq4gvi0yuln9xeb0p4g736v26tfslybr0jy832tbpy2xdcnsdl5
+Alphabet size: 34
+Size: 100 bytes (800 bits)
+Probability: g=0.0500, w=0.0100, p=0.0500, v=0.0800, o=0.0300, q=0.0300, 8=0.0200, 7=0.0300, j=0.0300, 0=0.0400, m=0.0300, y=0.0600, t=0.0500, b=0.0400, n=0.0400, r=0.0200, l=0.0600, 2=0.0400, e=0.0200, c=0.0200, z=0.0200, k=0.0100, a=0.0200, i=0.0300, 3=0.0300, 4=0.0200, u=0.0100, 9=0.0100, x=0.0200, 6=0.0200, f=0.0100, s=0.0200, d=0.0200, 5=0.0100
+Mean probability: 0.0294
+Type: нерівна
+Entropy: -4.8725
+Redundancy: 1.9578
+
+---Sequence 8---
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Alphabet size: 1
+Size: 100 bytes (800 bits)
+Probability: 1=1.0000
+Mean probability: 1.0000
+Type: рівна
+Entropy: 0.0000
+Redundancy: 1.0000
+0000000011000100000000000101001000000010000000000000000010000010000000000000001000010000010001000000
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0t0000m000000000000000a0000k00000000o00000000000000000k000000000000000000000S0000000000000aa000000h0
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+aaSaSaSSSSaaaaaSSSSaaSSSSSSaSaSSSaSSaSSaaaSSaSaaSSSaaaSaSSaaSaSaSSaaaaSSaSSSaSaaSaSaaSSSSaSSSSaSaaaa
+5S999S995a9552S2295S922aa9S95a22222559S9Saa
+gwpvoq8v7jv0mytbnrtgtjlq27vyenclzvpvkmgaopzial3moiq4gvi0yuln9xeb0p4g736v26tfslybr0jy832tbpy2xdcnsdl5
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+---Sequence 1---
+0000000000001100010000000100000000000000000010000010010000000000100000100000100100010000000001000000
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: 0=0.8700, 1=0.1300
+Mean probability: 0.5000
+Type: нерівна
+Entropy: -0.5574
+Redundancy: 1.5574
+
+---Sequence 2---
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: S=0.0100, a=0.0300, m=0.0100, o=0.0100, k=0.0200, h=0.0100, t=0.0100, 0=0.9000
+Mean probability: 0.1250
+Type: нерівна
+Entropy: -0.7336
+Redundancy: 1.2445
+
+---Sequence 3---
+0000000h00k000000000S00000000m00000k00000a00000t0000000000000000000000000000000000000ao00000000000a0
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: 0=0.9000, h=0.0100, k=0.0200, S=0.0100, m=0.0100, a=0.0300, t=0.0100, o=0.0100
+Mean probability: 0.1250
+Type: нерівна
+Entropy: -0.7336
+Redundancy: 1.2445
+
+---Sequence 4---
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+Alphabet size: 10
+Size: 100 bytes (800 bits)
+Probability: S=0.0800, a=0.2300, m=0.0800, o=0.0800, k=0.1600, h=0.0800, t=0.0800, 5=0.0700, 2=0.0700, 9=0.0700
+Mean probability: 0.1000
+Type: нерівна
+Entropy: -3.1739
+Redundancy: 1.9554
+
+---Sequence 5---
+SSaaSaaSSSSSaaSSSSaaaaSaSSSSaSSaaaSaSSSaSSaaaaaSaSaaSaaaaaaSSaSaaaSSSSaSaaSaaSSaSaaaSSSSSaSSSaaSSaSS
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: S=0.5200, a=0.4800
+Mean probability: 0.5000
+Type: рівна
+Entropy: -0.9988
+Redundancy: 1.9988
+
+---Sequence 6---
+25S5a95a2a955a525a9S5999555922aa9SS2a99a222
+Alphabet size: 5
+Size: 43 bytes (344 bits)
+Probability: 2=0.0900, 5=0.1100, S=0.0400, a=0.0900, 9=0.1000
+Mean probability: 0.0860
+Type: нерівна
+Entropy: -1.4935
+Redundancy: 1.6432
+
+---Sequence 7---
+naqadyaaoj1ztb4zhcj2pshf5via9p58oegd0ywsbcjzawoe01vhmul4rm05jlkie9e5fdgkbdsp5ij8vlu9l2xrpyahtejogmw9
+Alphabet size: 33
+Size: 100 bytes (800 bits)
+Probability: n=0.0100, a=0.0700, q=0.0100, d=0.0400, y=0.0300, o=0.0400, j=0.0600, 1=0.0200, z=0.0300, t=0.0200, b=0.0300, 4=0.0200, h=0.0400, c=0.0200, 2=0.0200, p=0.0400, s=0.0300, f=0.0200, 5=0.0500, v=0.0300, i=0.0300, 9=0.0400, 8=0.0200, e=0.0500, g=0.0300, 0=0.0300, w=0.0300, m=0.0300, u=0.0200, l=0.0400, r=0.0200, k=0.0200, x=0.0100
+Mean probability: 0.0303
+Type: нерівна
+Entropy: -4.9046
+Redundancy: 1.9723
+
+---Sequence 8---
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Alphabet size: 1
+Size: 100 bytes (800 bits)
+Probability: 1=1.0000
+Mean probability: 1.0000
+Type: рівна
+Entropy: 0.0000
+Redundancy: 1.0000
+0000000000001100010000000100000000000000000010000010010000000000100000100000100100010000000001000000
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000h00k000000000S00000000m00000k00000a00000t0000000000000000000000000000000000000ao00000000000a0
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+SSaaSaaSSSSSaaSSSSaaaaSaSSSSaSSaaaSaSSSaSSaaaaaSaSaaSaaaaaaSSaSaaaSSSSaSaaSaaSSaSaaaSSSSSaSSSaaSSaSS
+25S5a95a2a955a525a9S5999555922aa9SS2a99a222
+naqadyaaoj1ztb4zhcj2pshf5via9p58oegd0ywsbcjzawoe01vhmul4rm05jlkie9e5fdgkbdsp5ij8vlu9l2xrpyahtejogmw9
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+---Sequence 1---
+0000000000000100000010010001000100000000000000000000010100010000000010000001000000001110000000000000
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: 0=0.8700, 1=0.1300
+Mean probability: 0.5000
+Type: нерівна
+Entropy: 0.5574
+Redundancy: 0.4426
+
+---Sequence 2---
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: S=0.0100, a=0.0300, m=0.0100, o=0.0100, k=0.0200, h=0.0100, t=0.0100, 0=0.9000
+Mean probability: 0.1250
+Type: нерівна
+Entropy: 0.7336
+Redundancy: 0.7555
+
+---Sequence 3---
+000a0000000000000S0000000000000000h0000k00000000a0000000000000000000kt00000000000a0m00000o0000000000
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: 0=0.9000, a=0.0300, S=0.0100, h=0.0100, k=0.0200, t=0.0100, m=0.0100, o=0.0100
+Mean probability: 0.1250
+Type: нерівна
+Entropy: 0.7336
+Redundancy: 0.7555
+
+---Sequence 4---
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+Alphabet size: 10
+Size: 100 bytes (800 bits)
+Probability: S=0.0800, a=0.2300, m=0.0800, o=0.0800, k=0.1600, h=0.0800, t=0.0800, 5=0.0700, 2=0.0700, 9=0.0700
+Mean probability: 0.1000
+Type: нерівна
+Entropy: 3.1739
+Redundancy: 0.0446
+
+---Sequence 5---
+SSSSaaSSaaaaaaSSaSSSaaSaSSSaSSaaSSSaaSSaSSSSSaaaSSSaSSSaSaSSaaaaSSSSSaSaSaaaaSaSaSSSSaSSSSSSaSSaaaSS
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: S=0.5900, a=0.4100
+Mean probability: 0.5000
+Type: нерівна
+Entropy: 0.9765
+Redundancy: 0.0235
+
+---Sequence 6---
+55295S9259aS92a22a5229999S5S99S9S999555aSSa
+Alphabet size: 5
+Size: 43 bytes (344 bits)
+Probability: 5=0.0900, 2=0.0700, 9=0.1400, S=0.0800, a=0.0500
+Mean probability: 0.0860
+Type: нерівна
+Entropy: 1.4859
+Redundancy: 0.3600
+
+---Sequence 7---
+6u40ksmto3vli21i3zhpd4i6emty4an3ycxosff4zvv91g4f80x65yy6q3xkv5s244ekbhv3no3110dgvhoj141mllji77nfed8v
+Alphabet size: 34
+Size: 100 bytes (800 bits)
+Probability: 6=0.0400, u=0.0100, 4=0.0800, 0=0.0300, k=0.0300, s=0.0300, m=0.0300, t=0.0200, o=0.0400, 3=0.0600, v=0.0700, l=0.0300, i=0.0400, 2=0.0200, 1=0.0600, z=0.0200, h=0.0300, p=0.0100, d=0.0300, e=0.0300, y=0.0400, a=0.0100, n=0.0300, c=0.0100, x=0.0300, f=0.0400, 9=0.0100, g=0.0200, 8=0.0200, 5=0.0200, q=0.0100, b=0.0100, j=0.0200, 7=0.0200
+Mean probability: 0.0294
+Type: нерівна
+Entropy: 4.8617
+Redundancy: 0.0444
+
+---Sequence 8---
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Alphabet size: 1
+Size: 100 bytes (800 bits)
+Probability: 1=1.0000
+Mean probability: 1.0000
+Type: рівна
+Entropy: -0.0000
+Redundancy: 1.0000
+0000000000000100000010010001000100000000000000000000010100010000000010000001000000001110000000000000
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000a0000000000000S0000000000000000h0000k00000000a0000000000000000000kt00000000000a0m00000o0000000000
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+SSSSaaSSaaaaaaSSaSSSaaSaSSSaSSaaSSSaaSSaSSSSSaaaSSSaSSSaSaSSaaaaSSSSSaSaSaaaaSaSaSSSSaSSSSSSaSSaaaSS
+55295S9259aS92a22a5229999S5S99S9S999555aSSa
+6u40ksmto3vli21i3zhpd4i6emty4an3ycxosff4zvv91g4f80x65yy6q3xkv5s244ekbhv3no3110dgvhoj141mllji77nfed8v
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+---Sequence 1---
+1000000001000000100000000011011000001000000000000000001000000100000000010000001000000000000100000000
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: 1=0.1300, 0=0.8700
+Mean probability: 0.5000
+Type: нерівна
+Entropy: 0.5574
+Redundancy: 0.4426
+
+---Sequence 2---
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: S=0.0100, a=0.0300, m=0.0100, o=0.0100, k=0.0200, h=0.0100, t=0.0100, 0=0.9000
+Mean probability: 0.1250
+Type: нерівна
+Entropy: 0.7336
+Redundancy: 0.7555
+
+---Sequence 3---
+00000000000000000000o00t00000000000000000000000k0000a00000m000Sh0000000a000a000000000000000k00000000
+Alphabet size: 8
+Size: 100 bytes (800 bits)
+Probability: 0=0.9000, o=0.0100, t=0.0100, k=0.0200, a=0.0300, m=0.0100, S=0.0100, h=0.0100
+Mean probability: 0.1250
+Type: нерівна
+Entropy: 0.7336
+Redundancy: 0.7555
+
+---Sequence 4---
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+Alphabet size: 10
+Size: 100 bytes (800 bits)
+Probability: S=0.0800, a=0.2300, m=0.0800, o=0.0800, k=0.1600, h=0.0800, t=0.0800, 5=0.0700, 2=0.0700, 9=0.0700
+Mean probability: 0.1000
+Type: нерівна
+Entropy: 3.1739
+Redundancy: 0.0446
+
+---Sequence 5---
+SaSSaSSaaSaaSSSSaaaSaaSaSaSaSaSSaaSaaSaSSSSaSaSaSSaSaaSSSSSaaaSSaSSSaaaSaaSaSSSaSSaSSSaSSaSaaaSaaSaa
+Alphabet size: 2
+Size: 100 bytes (800 bits)
+Probability: S=0.5300, a=0.4700
+Mean probability: 0.5000
+Type: рівна
+Entropy: 0.9974
+Redundancy: 0.0026
+
+---Sequence 6---
+229SS59529aS999222955a5252a2Sa9SSa929S2529a
+Alphabet size: 5
+Size: 43 bytes (344 bits)
+Probability: 2=0.1200, 9=0.1100, S=0.0700, 5=0.0700, a=0.0600
+Mean probability: 0.0860
+Type: нерівна
+Entropy: 1.4980
+Redundancy: 0.3548
+
+---Sequence 7---
+nqms44dr0jslkribsck358k2fv16qtjop6a0zy9nn75m8gv0x2osx36yf4ep6lraur7lqpwwva910asmbvvlkxqja0z4bm9ijklh
+Alphabet size: 36
+Size: 100 bytes (800 bits)
+Probability: n=0.0300, q=0.0400, m=0.0400, s=0.0500, 4=0.0400, d=0.0100, r=0.0400, 0=0.0500, j=0.0400, l=0.0500, k=0.0500, i=0.0200, b=0.0300, c=0.0100, 3=0.0200, 5=0.0200, 8=0.0200, 2=0.0200, f=0.0200, v=0.0500, 1=0.0200, 6=0.0400, t=0.0100, o=0.0200, p=0.0300, a=0.0500, z=0.0200, y=0.0200, 9=0.0300, 7=0.0200, g=0.0100, x=0.0300, e=0.0100, u=0.0100, w=0.0200, h=0.0100
+Mean probability: 0.0278
+Type: нерівна
+Entropy: 4.9895
+Redundancy: 0.0349
+
+---Sequence 8---
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Alphabet size: 1
+Size: 100 bytes (800 bits)
+Probability: 1=1.0000
+Mean probability: 1.0000
+Type: рівна
+Entropy: -0.0000
+Redundancy: 1.0000
+1000000001000000100000000011011000001000000000000000001000000100000000010000001000000000000100000000
+Samokhatka000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000o00t00000000000000000000000k0000a00000m000Sh0000000a000a000000000000000k00000000
+Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatka529Samokhatk
+SaSSaSSaaSaaSSSSaaaSaaSaSaSaSaSSaaSaaSaSSSSaSaSaSSaSaaSSSSSaaaSSaSSSaaaSaaSaSSSaSSaSSSaSSaSaaaSaaSaa
+229SS59529aS999222955a5252a2Sa9SSa929S2529a
+nqms44dr0jslkribsck358k2fv16qtjop6a0zy9nn75m8gv0x2osx36yf4ep6lraur7lqpwwva910asmbvvlkxqja0z4bm9ijklh
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
