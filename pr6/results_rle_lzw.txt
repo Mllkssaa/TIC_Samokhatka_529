@@ -1,0 +1,177 @@
+
+===== Sequence 1 =====
+Original: aaaaabbbbcc
+Entropy: 1.0362
+Original size: 176 bits
+
+--- RLE ---
+Encoded: 5a4b2c
+Decoded: aaaaabbbbcc
+RLE size: 96 bits
+Compression ratio: 1.83
+
+--- LZW ---
+Code: 97, Element: a, bits: 16
+Code: 65536, Element: aa, bits: 17
+Code: 65536, Element: aa, bits: 17
+Code: 98, Element: b, bits: 16
+Code: 65539, Element: bb, bits: 17
+Code: 98, Element: b, bits: 16
+Code: 99, Element: c, bits: 16
+Code: 99, Element: c, bits: 16
+LZW codes: [97, 65536, 65536, 98, 65539, 98, 99, 99]
+LZW size: 131 bits
+Compression ratio: 1.34
+
+===== Sequence 2 =====
+Original: abcabcabc
+Entropy: 1.0986
+Original size: 144 bits
+
+--- RLE ---
+Encoded: 1a1b1c1a1b1c1a1b1c
+Decoded: abcabcabc
+RLE size: 288 bits
+Compression ratio: -
+
+--- LZW ---
+Code: 97, Element: a, bits: 16
+Code: 98, Element: b, bits: 16
+Code: 99, Element: c, bits: 16
+Code: 65536, Element: ab, bits: 17
+Code: 65538, Element: ca, bits: 17
+Code: 65537, Element: bc, bits: 17
+LZW codes: [97, 98, 99, 65536, 65538, 65537]
+LZW size: 99 bits
+Compression ratio: 1.45
+
+===== Sequence 3 =====
+Original: 111000111
+Entropy: 0.6365
+Original size: 144 bits
+
+--- RLE ---
+Encoded: 313031
+Decoded: 111000111
+RLE size: 96 bits
+Compression ratio: 1.5
+
+--- LZW ---
+Code: 49, Element: 1, bits: 16
+Code: 65536, Element: 11, bits: 17
+Code: 48, Element: 0, bits: 16
+Code: 65538, Element: 00, bits: 17
+Code: 65536, Element: 11, bits: 17
+Code: 49, Element: 1, bits: 16
+LZW codes: [49, 65536, 48, 65538, 65536, 49]
+LZW size: 99 bits
+Compression ratio: 1.45
+
+===== Sequence 4 =====
+Original: xyzxyzxyz
+Entropy: 1.0986
+Original size: 144 bits
+
+--- RLE ---
+Encoded: 1x1y1z1x1y1z1x1y1z
+Decoded: xyzxyzxyz
+RLE size: 288 bits
+Compression ratio: -
+
+--- LZW ---
+Code: 120, Element: x, bits: 16
+Code: 121, Element: y, bits: 16
+Code: 122, Element: z, bits: 16
+Code: 65536, Element: xy, bits: 17
+Code: 65538, Element: zx, bits: 17
+Code: 65537, Element: yz, bits: 17
+LZW codes: [120, 121, 122, 65536, 65538, 65537]
+LZW size: 99 bits
+Compression ratio: 1.45
+
+===== Sequence 5 =====
+Original: ababababab
+Entropy: 0.6931
+Original size: 160 bits
+
+--- RLE ---
+Encoded: 1a1b1a1b1a1b1a1b1a1b
+Decoded: ababababab
+RLE size: 320 bits
+Compression ratio: -
+
+--- LZW ---
+Code: 97, Element: a, bits: 16
+Code: 98, Element: b, bits: 16
+Code: 65536, Element: ab, bits: 17
+Code: 65538, Element: aba, bits: 17
+Code: 65537, Element: ba, bits: 17
+Code: 98, Element: b, bits: 16
+LZW codes: [97, 98, 65536, 65538, 65537, 98]
+LZW size: 99 bits
+Compression ratio: 1.62
+
+===== Sequence 6 =====
+Original: cccccccccc
+Entropy: -0.0
+Original size: 160 bits
+
+--- RLE ---
+Encoded: 10c
+Decoded: cccccccccc
+RLE size: 48 bits
+Compression ratio: 3.33
+
+--- LZW ---
+Code: 99, Element: c, bits: 16
+Code: 65536, Element: cc, bits: 17
+Code: 65537, Element: ccc, bits: 17
+Code: 65538, Element: cccc, bits: 17
+LZW codes: [99, 65536, 65537, 65538]
+LZW size: 67 bits
+Compression ratio: 2.39
+
+===== Sequence 7 =====
+Original: qwertyqwerty
+Entropy: 1.7918
+Original size: 192 bits
+
+--- RLE ---
+Encoded: 1q1w1e1r1t1y1q1w1e1r1t1y
+Decoded: qwertyqwerty
+RLE size: 384 bits
+Compression ratio: -
+
+--- LZW ---
+Code: 113, Element: q, bits: 16
+Code: 119, Element: w, bits: 16
+Code: 101, Element: e, bits: 16
+Code: 114, Element: r, bits: 16
+Code: 116, Element: t, bits: 16
+Code: 121, Element: y, bits: 16
+Code: 65536, Element: qw, bits: 17
+Code: 65538, Element: er, bits: 17
+Code: 65540, Element: ty, bits: 17
+LZW codes: [113, 119, 101, 114, 116, 121, 65536, 65538, 65540]
+LZW size: 147 bits
+Compression ratio: 1.31
+
+===== Sequence 8 =====
+Original: zzzzzzzzzz
+Entropy: -0.0
+Original size: 160 bits
+
+--- RLE ---
+Encoded: 10z
+Decoded: zzzzzzzzzz
+RLE size: 48 bits
+Compression ratio: 3.33
+
+--- LZW ---
+Code: 122, Element: z, bits: 16
+Code: 65536, Element: zz, bits: 17
+Code: 65537, Element: zzz, bits: 17
+Code: 65538, Element: zzzz, bits: 17
+LZW codes: [122, 65536, 65537, 65538]
+LZW size: 67 bits
+Compression ratio: 2.39
