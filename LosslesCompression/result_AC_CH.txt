@@ -1,0 +1,88 @@
+
+=== Sequence 1 ===
+Original: 1111-1-1-111
+Entropy: 0.8113
+AC Encoded: 10110101100
+AC Decoded: 1111-1-1-111
+BPS AC: 0.9167
+
+CH Encoded: 111101010111
+CH Decoded: 1111-1-1-111
+BPS CH: 1.0000
+
+=== Sequence 2 ===
+Original: 111-1-111-1-1
+Entropy: 0.8905
+AC Encoded: 1011011100010
+AC Decoded: 111-1-111-1-1
+BPS AC: 1.0000
+
+CH Encoded: 1110101110101
+CH Decoded: 111-1-111-1-1
+BPS CH: 1.0000
+
+=== Sequence 3 ===
+Original: 11-1-111-1-11
+Entropy: 0.8905
+AC Encoded: 1001011010101
+AC Decoded: 11-1-111-1-11
+BPS AC: 1.0000
+
+CH Encoded: 1101011101011
+CH Decoded: 11-1-111-1-11
+BPS CH: 1.0000
+
+=== Sequence 4 ===
+Original: 1-1111-1-111
+Entropy: 0.8113
+AC Encoded: 01100010010
+AC Decoded: 1-1111-1-111
+BPS AC: 0.9167
+
+CH Encoded: 101111010111
+CH Decoded: 1-1111-1-111
+BPS CH: 1.0000
+
+=== Sequence 5 ===
+Original: 111-1-1-1111
+Entropy: 0.8113
+AC Encoded: 10011100110
+AC Decoded: 111-1-1-1111
+BPS AC: 0.9167
+
+CH Encoded: 111010101111
+CH Decoded: 111-1-1-1111
+BPS CH: 1.0000
+
+=== Sequence 6 ===
+Original: 11-111-1-111
+Entropy: 0.8113
+AC Encoded: 10000110010
+AC Decoded: 11-111-1-111
+BPS AC: 0.9167
+
+CH Encoded: 110111010111
+CH Decoded: 11-111-1-111
+BPS CH: 1.0000
+
+=== Sequence 7 ===
+Original: 1-1-1111-111
+Entropy: 0.8113
+AC Encoded: 01010010101
+AC Decoded: 1-1-1111-111
+BPS AC: 0.9167
+
+CH Encoded: 101011110111
+CH Decoded: 1-1-1111-111
+BPS CH: 1.0000
+
+=== Sequence 8 ===
+Original: 1111-1-111-1
+Entropy: 0.8113
+AC Encoded: 10110110100
+AC Decoded: 1111-1-111-1
+BPS AC: 0.9167
+
+CH Encoded: 111101011101
+CH Decoded: 1111-1-111-1
+BPS CH: 1.0000
