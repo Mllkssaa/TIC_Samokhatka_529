@@ -75,14 +75,3 @@ BPS AC: 0.9167
 CH Encoded: 101011110111
 CH Decoded: 1-1-1111-111
 BPS CH: 1.0000
-
-=== Sequence 8 ===
-Original: 1111-1-111-1
-Entropy: 0.8113
-AC Encoded: 10110110100
-AC Decoded: 1111-1-111-1
-BPS AC: 0.9167
-
-CH Encoded: 111101011101
-CH Decoded: 1111-1-111-1
-BPS CH: 1.0000

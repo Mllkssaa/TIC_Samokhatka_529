@@ -2,7 +2,6 @@ import math
 import collections
 import ast
 
-
 # =========================
 # FLOAT → BINARY
 # =========================
@@ -161,8 +160,15 @@ def decode_ch(encoded_data):
 # MAIN
 # =========================
 def main():
+    import matplotlib.pyplot as plt
+
     with open("sequence.txt", "r") as file:
         sequences = ast.literal_eval(file.read())
+
+    entropies = []
+    bps_ac_list = []
+    bps_ch_list = []
+    labels = []
 
     with open("result_AC_CH.txt", "w", encoding="utf-8") as f:
 
@@ -184,11 +190,12 @@ def main():
             decoded_ac = decode_ac(data_ac, N)
             bps_ac = len(encoded_ac) / N
 
-            # CH
+            #Huffman
             data_ch, encoded_ch = encode_ch(set(sequence), probability, sequence)
             decoded_ch = decode_ch(data_ch)
             bps_ch = len(encoded_ch) / N
 
+            #запис у файл
             f.write(f"\n=== Sequence {idx+1} ===\n")
             f.write(f"Original: {sequence}\n")
             f.write(f"Entropy: {entropy:.4f}\n")
@@ -200,6 +207,62 @@ def main():
             f.write(f"\nCH Encoded: {encoded_ch}\n")
             f.write(f"CH Decoded: {decoded_ch}\n")
             f.write(f"BPS CH: {bps_ch:.4f}\n")
+
+            #збереження для графіків
+            entropies.append(entropy)
+            bps_ac_list.append(bps_ac)
+            bps_ch_list.append(bps_ch)
+            labels.append(f"S{idx + 1}")
+
+            #графік 1 (послідовності)
+            plt.figure()
+
+            plt.plot(labels, entropies, marker='o', label='Entropy')
+            plt.plot(labels, bps_ac_list, marker='o', label='AC (bps)')
+            plt.plot(labels, bps_ch_list, marker='o', label='Huffman (bps)')
+
+            plt.title("Entropy vs Compression Methods")
+            plt.xlabel("Sequences")
+            plt.ylabel("Bits per symbol (bps)")
+            plt.legend()
+            plt.grid()
+
+            plt.show()
+
+            #графік 2 (середні значення)
+            plt.figure()
+
+            methods = ["Entropy", "AC", "Huffman"]
+            values = [
+                sum(entropies) / len(entropies),
+                sum(bps_ac_list) / len(bps_ac_list),
+                sum(bps_ch_list) / len(bps_ch_list)
+            ]
+
+            plt.bar(methods, values)
+
+            plt.title("Average Compression Efficiency")
+            plt.ylabel("Bits per symbol")
+            plt.grid(axis='y')
+
+            plt.show()
+
+            #графік 3 (надлишковість)
+            plt.figure()
+
+            diff_ac = [a - e for a, e in zip(bps_ac_list, entropies)]
+            diff_ch = [c - e for c, e in zip(bps_ch_list, entropies)]
+
+            plt.plot(labels, diff_ac, marker='o', label='AC - Entropy')
+            plt.plot(labels, diff_ch, marker='o', label='Huffman - Entropy')
+
+            plt.title("Coding Redundancy")
+            plt.xlabel("Sequences")
+            plt.ylabel("Extra bits over entropy")
+            plt.legend()
+            plt.grid()
+
+            plt.show()
 
 
 if __name__ == "__main__":
